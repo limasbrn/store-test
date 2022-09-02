@@ -1,0 +1,37 @@
+{
+    "products":[
+        {
+            "id":1,
+            "name":"SOLACE LONDON",
+            "description":"Vestido ombro a ombro Arla",
+            "price":"R$ 3.723",
+            "type":"vestido",
+            "color":"preto",
+            "material":"poliéster",
+            "ocasion":"festa",
+            "image":"https://cdn-images.farfetch-contents.com/17/84/82/71/17848271_40490086_1000.jpg"
+        },
+        {
+            "id":2,
+            "name":"SOLACE LONDON",
+            "description":"Vestido sem alças com recortes",
+            "price":"R$ 4.332",
+            "type":"vestido",
+            "color":"sortido",
+            "material":"poliéster",
+            "ocasion":"festa",
+            "image":"https://cdn-images.farfetch-contents.com/18/54/80/99/18548099_40967898_1000.jpg"
+        },
+        {
+            "id":3,
+            "name":"Armani Exchange",
+            "description":"Saia curta com logo",
+            "price":"R$ 930",
+            "type":"saia",
+            "color":"preto",
+            "material":"poliéster",
+            "ocasion":"casual",
+            "image":"https://cdn-images.farfetch-contents.com/17/10/26/12/17102612_36270230_1000.jpg"
+        }
+    ]
+}
