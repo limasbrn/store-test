@@ -1,37 +1,181 @@
 {
-    "products":[
+    "products": [
         {
-            "id":1,
-            "name":"SOLACE LONDON",
-            "description":"Vestido ombro a ombro Arla",
-            "price":"R$ 3.723",
-            "type":"vestido",
-            "color":"preto",
-            "material":"poliéster",
-            "ocasion":"festa",
-            "image":"https://cdn-images.farfetch-contents.com/17/84/82/71/17848271_40490086_1000.jpg"
+            "id": 1,
+            "name": "Solace London",
+            "description": "Vestido ombro a ombro Arla",
+            "price": "R$ 3.723",
+            "category": "vestido",
+            "color": "preto",
+            "material": "poliéster",
+            "ocasion": "festa",
+            "image": "https://cdn-images.farfetch-contents.com/17/84/82/71/17848271_40490086_1000.jpg"
         },
         {
-            "id":2,
-            "name":"SOLACE LONDON",
-            "description":"Vestido sem alças com recortes",
-            "price":"R$ 4.332",
-            "type":"vestido",
-            "color":"sortido",
-            "material":"poliéster",
-            "ocasion":"festa",
-            "image":"https://cdn-images.farfetch-contents.com/18/54/80/99/18548099_40967898_1000.jpg"
+            "id": 2,
+            "name": "Solace London",
+            "description": "Vestido sem alças com recortes",
+            "price": "R$ 4.332",
+            "category": "vestido",
+            "color": "sortido",
+            "material": "poliéster",
+            "ocasion": "festa",
+            "image": "https://cdn-images.farfetch-contents.com/18/54/80/99/18548099_40967898_1000.jpg"
         },
         {
-            "id":3,
-            "name":"Armani Exchange",
-            "description":"Saia curta com logo",
-            "price":"R$ 930",
-            "type":"saia",
-            "color":"preto",
-            "material":"poliéster",
-            "ocasion":"casual",
-            "image":"https://cdn-images.farfetch-contents.com/17/10/26/12/17102612_36270230_1000.jpg"
+            "id": 3,
+            "name": "Armani Exchange",
+            "description": "Saia curta com logo",
+            "price": "R$ 930",
+            "category": "saia",
+            "color": "preto",
+            "material": "poliéster",
+            "ocasion": "casual",
+            "image": "https://cdn-images.farfetch-contents.com/17/10/26/12/17102612_36270230_1000.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Solace London",
+            "description": "Vestido Ola com decote quadrado",
+            "price": "R$ 2.780",
+            "category": "vestido",
+            "color": "preto",
+            "material": "poliéster",
+            "ocasion": "formal",
+            "image": "https://cdn-images.farfetch-contents.com/17/84/82/73/17848273_40538152_1000.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Zimmermann",
+            "description": "Vestido envelope Anneke",
+            "price": "R$ 4.913",
+            "category": "vestido",
+            "color": "palha",
+            "material": "algodão",
+            "ocasion": "casual",
+            "image": "https://cdn-images.farfetch-contents.com/18/48/32/71/18483271_39778561_1000.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Hunza G",
+            "description": "Vestido frente única Polly franzido",
+            "price": "R$ 1.542",
+            "category": "vestido",
+            "color": "branco",
+            "material": "nylon",
+            "ocasion": "casual",
+            "image": "https://cdn-images.farfetch-contents.com/17/12/65/21/17126521_37303274_1000.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Paco Rabanne",
+            "description": "Minissaia com aplicação de discos",
+            "price": "R$ 10.283",
+            "category": "saia",
+            "color": "preto",
+            "material": "plástico",
+            "ocasion": "festa",
+            "image": "https://cdn-images.farfetch-contents.com/18/03/57/54/18035754_40159590_1000.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Alexander McQueen",
+            "description": "Saia assimétrica com babados",
+            "price": "R$ 6.584",
+            "category": "saia",
+            "color": "vermelho",
+            "material": "poliéster",
+            "ocasion": "festa",
+            "image": "https://cdn-images.farfetch-contents.com/17/98/51/68/17985168_40753739_1000.jpg"
+        },
+        {
+            "id": 9,
+            "name": "16Arlington",
+            "description": "Regata cropped Poppy com plumas",
+            "price": "R$ 3.761",
+            "category": "top",
+            "color": "preto",
+            "material": "plumas",
+            "ocasion": "festa",
+            "image": "https://cdn-images.farfetch-contents.com/16/52/33/86/16523386_33624899_1000.jpg"
+        },
+        {
+            "id":10,
+            "name": "Jacquemus",
+            "description": "Camiseta com logo bordado",
+            "price": "R$ 990",
+            "category": "top",
+            "color": "branco",
+            "material": "algodão",
+            "ocasion": "casual",
+            "image": "https://cdn-images.farfetch-contents.com/17/70/00/12/17700012_37208566_1000.jpg"
+        },
+        {
+            "id":11,
+            "name": "Polo Ralph Lauren",
+            "description": "Camisa de linho com logo bordado",
+            "price": "R$ 1550",
+            "category": "top",
+            "color": "branco",
+            "material": "linho",
+            "ocasion": "formal",
+            "image": "https://cdn-images.farfetch-contents.com/17/84/86/88/17848688_40240579_1000.jpg"
+        },
+        {
+            "id":12,
+            "name": "Reformation",
+            "description": "Blusa decote quadrado",
+            "price": "R$ 1094",
+            "category": "top",
+            "color": "branco",
+            "material": "linho",
+            "ocasion": "casual",
+            "image": "https://cdn-images.farfetch-contents.com/18/31/02/74/18310274_39410509_1000.jpg"
+        },
+        {
+            "id":13,
+            "name": "Boss",
+            "description": "Calça alfaiataria",
+            "price": "R$ 1050",
+            "category": "calca",
+            "color": "preto",
+            "material": "lã",
+            "ocasion": "formal",
+            "image": "https://cdn-images.farfetch-contents.com/16/52/86/74/16528674_34995010_1000.jpg"
+        },
+        {
+            "id":14,
+            "name": "Barrie",
+            "description": "Calça esportiva de cashmere",
+            "price": "R$ 8635",
+            "category": "calca",
+            "color": "preto",
+            "material": "cashmere",
+            "ocasion": "casual",
+            "image": "https://cdn-images.farfetch-contents.com/15/91/19/43/15911943_29436014_1000.jpg"
+        },
+        {
+            "id":15,
+            "name": "Prada",
+            "description":"Short com placa de logo",
+            "price": "R$ 5800",
+            "category": "short",
+            "color": "preto",
+            "material": "poliamida",
+            "ocasion": "casual",
+            "image": "https://cdn-images.farfetch-contents.com/17/50/57/44/17505744_36314974_1000.jpg"
+        },
+        {
+            "id":16,
+            "name": "Nanushka",
+            "description":"Short de alfaiataria",
+            "price": "R$ 2077",
+            "category": "short",
+            "color": "bege",
+            "material": "poliéster",
+            "ocasion": "formal",
+            "image": "https://cdn-images.farfetch-contents.com/18/04/08/70/18040870_38511203_1000.jpg"
         }
+
     ]
 }
