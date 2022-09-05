@@ -27,7 +27,7 @@ export const BaseModal = styled("div", {
 
   "@media (min-width: 500px)": {
     flexDirection: "row",
-    padding:"50px 0px 50px 30px",
+    padding: "50px 0px 50px 30px",
   },
 });
 export const TextContainer = styled("div", {
@@ -36,7 +36,7 @@ export const TextContainer = styled("div", {
   flexDirection: "column",
   gap: "10px",
   marginTop: "20px",
-  padding:"30px",
+  padding: "30px",
 
   "@media (min-width: 500px)": {
     marginTop: "0px",
@@ -47,7 +47,7 @@ export const TextP = styled("p", {
   fontWeight: "lighter",
   color: "grey",
   "@media (min-width: 500px)": {
-    fontSize:"13px",
+    fontSize: "13px",
   },
 });
 export const DivStatus = styled("div", {
@@ -56,7 +56,7 @@ export const DivStatus = styled("div", {
 export const ButtonContainer = styled("div", {
   display: "flex",
   flexDirection: "column",
-  alignItems: "center",
+  alignItems: "flex-end",
   padding: "15px",
 });
 const Image = styled("img", {
@@ -64,16 +64,18 @@ const Image = styled("img", {
   height: "auto",
 });
 const ButtonModal = styled("button", {
-  width:"fit-content",
-  height:"fit-content",
+  width: "60px",
+  height: "fit-content",
+  borderRadius: "5px ",
   padding:"5px 7px",
-  borderRadius:"5px",
-  border:"1px solid #D9D9D9",
-  backgroundColor:"white",
-  "&:hover":{
-  backgroundColor:"#D9D9D9",
+  border: "none",
+  backgroundColor: "white",
+  outline: "1px solid #D9D9D9",
+  fontSize:"12px",
+  "&:hover": {
+    backgroundColor: "#D9D9D9",
   },
-})
+});
 
 export const ModalCard = (props) => {
   return (
@@ -81,17 +83,19 @@ export const ModalCard = (props) => {
       <BaseModal>
         <Image src={props.image} alt={props.name} />
         <TextContainer>
+        <ButtonContainer>
+            <ButtonModal onClick={props.onClose}>close</ButtonModal>
+          </ButtonContainer>
           <div>
             <h3>{props.name}</h3>
-
             <TextP>{props.description}</TextP>
+            <br/>
+            <TextP>Material: {props.material}</TextP>
           </div>
           <div>
             <h4>{props.price}</h4>
           </div>
-          <ButtonContainer>
-            <ButtonModal onClick={props.onClose}>Close</ButtonModal>
-          </ButtonContainer>
+        
         </TextContainer>
       </BaseModal>
     </LayoutModal>

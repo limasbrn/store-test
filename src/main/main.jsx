@@ -168,6 +168,7 @@ export const Main = () => {
                   image={item.image}
                   name={item.name}
                   description={item.description}
+                  material={item.material}
                   price={item.price}
                 />
               )}
