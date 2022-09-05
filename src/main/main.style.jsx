@@ -3,7 +3,7 @@ import { styled } from "@stitches/react";
 export const ProductList = styled("ul", {
   display: "grid",
   gridTemplateColumns: "repeat(2, 1fr)",
-  padding: "15px",
+  padding: "15px 15px 30px 15px",
   gap: "7px",
   "@media (min-width: 700px)": {
     gridTemplateColumns: "repeat(3, 1fr)",
