@@ -14,16 +14,28 @@ const AddInfo = styled("p", {
 });
 const InfoContainer = styled("div", {
   display: "flex",
-  flexDirection: "row",
-  padding: "15px 100px",
+  flexDirection: "column",
+  padding: "15px",
   gap: "40px",
+  "@media (min-width: 500px)": {
+    flexDirection: "row",
+  },
+  "@media (min-width: 600px)": {
+    padding: "15px 100px",
+  },
 });
 const InfoContainer2 = styled("div", {
   display: "flex",
-  flexDirection: "row",
+  flexDirection: "column",
   justifyContent: "space-between",
   alignItems: "center",
-  padding: "10px 100px",
+  padding: "15px",
+  gap: "10px",
+  "@media (min-width: 500px)": {
+    flexDirection: "row",
+    padding: "10px 100px",
+    gap: "0px",
+  },
 });
 
 export const Footer = () => {
@@ -38,13 +50,15 @@ export const Footer = () => {
         </div>
         <div>
           <h6>ABOUT ELIPSE</h6>
-          <AddInfo>Know more about us</AddInfo>
+          <AddInfo>About us</AddInfo>
           <AddInfo>Contact us</AddInfo>
-          <AddInfo>elipsecontact@contact.com</AddInfo>
+          <AddInfo>contact@contact.com</AddInfo>
         </div>
         <div>
           <h6>ABOUT THIS PROJECT</h6>
-          <AddInfo>Created by <strong>Sabrina Silva</strong></AddInfo>
+          <AddInfo>
+            Created by <strong>Sabrina Silva</strong>
+          </AddInfo>
           <AddInfo>linkedin.com/in/sabrinalsilva/</AddInfo>
           <AddInfo>lima.sbrn@gmail.com</AddInfo>
         </div>

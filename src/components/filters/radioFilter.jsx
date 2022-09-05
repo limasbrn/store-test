@@ -1,12 +1,10 @@
-import React from "react";
-
 const RadioFilter = ({ name, index, value, setValue }) => {
   return (
     <div>
       <input
         onChange={() => {
           setValue(value);
-          console.log(value); 
+          console.log(value);
         }}
         type="radio"
         name={name}

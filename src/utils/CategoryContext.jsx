@@ -1,3 +1,3 @@
-import {creatContext} from 'react'
+import { createContext } from "react";
 
-export const CategoryContext = creatContext(null);
+export const CategoryContext = createContext([]);

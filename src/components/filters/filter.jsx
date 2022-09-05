@@ -1,4 +1,3 @@
-import React from "react";
 import { styled } from "@stitches/react";
 import Category from "./Categories/categories";
 import Ocasion from "./Ocasion/ocasion";
@@ -15,14 +14,21 @@ const LayoutFilters = styled("div", {
 });
 const BigFilterCont = styled("div", {
   display: "flex",
-  flexDirection:"column",
-  marginTop:"15px",
-  gap: "15px",
+  flexDirection: "row",
+  marginTop: "15px",
+  gap: "30px",
+  "@media (min-width: 500px)": {
+    flexDirection: "column",
+    gap: "15px",
+  },
 });
 const Span = styled("span", {
   cursor: "pointer",
-  fontWeight:"bolder",
-  fontSize:"12px",
+  fontWeight: "bolder",
+  fontSize: "14px",
+  "@media (min-width: 500px)": {
+    fontSize: "12px",
+  },
 });
 
 export const Filter = ({ setCategory, setOcasion }) => {

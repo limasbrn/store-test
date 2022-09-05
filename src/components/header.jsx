@@ -5,6 +5,7 @@ const HeaderLayout = styled("header", {
   width: "100%",
   flexDirection:"column",
   height: "fit-content",
+  backgroundColor:"white",
   border: "2px solid #F8F4F3",
   marginBottom: "30px",
   justifyContent: "center",
@@ -13,11 +14,14 @@ const HeaderLayout = styled("header", {
 });
 const Container = styled("div", {
   display: "flex",
-  width: "80%",
+  width: "90%",
   flexDirection: "row",
   justifyContent: "space-between",
   alignItems: "center",
   padding: "10px 0px",
+  "@media (min-width: 1000px)": {
+    width: "80%",
+  },
 });
 const UlLink = styled("ul", {
   display: "flex",
@@ -49,11 +53,9 @@ export const Header = () => {
       </Container>
       <Container>
       <UlLink>
-          <CategoryLink>Vestido</CategoryLink>
-          <CategoryLink>Saias</CategoryLink>
-          <CategoryLink>Blusas</CategoryLink>
-          <CategoryLink>Calças</CategoryLink>
-          <CategoryLink>Shorts</CategoryLink>
+          <CategoryLink>Roupas</CategoryLink>
+          <CategoryLink>Calçados</CategoryLink>
+          <CategoryLink>Acessórios</CategoryLink>
         </UlLink>
       </Container>
     </HeaderLayout>

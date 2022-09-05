@@ -8,17 +8,21 @@ const FilterContainer = styled("div", {
   padding: "5px",
   borderRadius: "7px",
   gap: "15px",
-  fontSize:"13px",
+  fontSize: "18px",
+  "@media (min-width: 500px)": {
+    fontSize: "13px",
+  },
 });
 
 const Ocasion = ({ setOcasion }) => {
-  let ocasion = ["formal", "casual", "festa"];
+  const ocasions = ["formal", "casual", "festa"];
+
   return (
     <FilterContainer>
       <h5>Ocasion</h5>
       <hr />
       <br />
-      {ocasion.map((item, index) => (
+      {ocasions.map((item, index) => (
         <RadioFilter
           setValue={setOcasion}
           key={index}

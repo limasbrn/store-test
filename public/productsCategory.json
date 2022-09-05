@@ -25,7 +25,7 @@
         {
             "id": 3,
             "name": "Armani Exchange",
-            "description": "Saia curta com logo",
+            "description": "Saia curta com logo lateral ",
             "price": "R$ 930",
             "category": "saia",
             "color": "preto",
@@ -135,7 +135,7 @@
         {
             "id":13,
             "name": "Boss",
-            "description": "Calça alfaiataria",
+            "description": "Calça alfaiataria na cor preta",
             "price": "R$ 1050",
             "category": "calca",
             "color": "preto",
@@ -168,7 +168,7 @@
         {
             "id":16,
             "name": "Nanushka",
-            "description":"Short de alfaiataria",
+            "description":"Short de alfaiataria na cor bege",
             "price": "R$ 2077",
             "category": "short",
             "color": "bege",

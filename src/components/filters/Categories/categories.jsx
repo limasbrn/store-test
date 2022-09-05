@@ -1,4 +1,3 @@
-import React from "react";
 import { styled } from "@stitches/react";
 import RadioFilter from "../radioFilter";
 
@@ -8,14 +7,18 @@ const FilterContainer = styled("div", {
   padding: "5px",
   borderRadius: "7px",
   gap: "15px",
-  fontSize:"13px",
+  fontSize: "18px",
+  "@media (min-width: 500px)": {
+    fontSize: "13px",
+  },
 });
 
 const Categories = ({ setCategory }) => {
-  let categories = ["vestido", "saia", "calca", "short", "top"];
+  const categories = ["vestido", "saia", "calca", "short", "top"];
+
   return (
     <FilterContainer>
-      <h6>Category</h6>
+      <h5>Category</h5>
       <hr />
       <br />
       {categories.map((item, index) => (
