@@ -14,7 +14,7 @@ const FilterContainer = styled("div", {
 });
 
 const Categories = ({ setCategory }) => {
-  const categories = ["vestido", "saia", "calca", "short", "top"];
+  const categories = ["vestido", "saia", "calça", "short", "top"];
 
   return (
     <FilterContainer>
