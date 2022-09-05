@@ -9,10 +9,11 @@ const TitleLayout = styled("div", {
 });
 const Container = styled("div", {
   display: "flex",
-  width:"100%",
+  width:"80%",
   flexDirection: "column",
   justifyContent: "space-between",
   padding: "0px 30px",
+
 });
 const DescriptionP = styled("p", {
   fontSize: "14px",
